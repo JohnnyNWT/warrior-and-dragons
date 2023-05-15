@@ -6,11 +6,11 @@ abstract class Race {
     this._dexterity = dexterity;
   }
 
-  public get getName() {
+  public get name():string {
     return this._name;
   }
 
-  public get getDex() {
+  public get dexterity():number {
     return this._dexterity;
   }
 
